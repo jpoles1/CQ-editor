@@ -11,3 +11,9 @@ dependencies:
   - logbook
   - requests
   - cadquery=master
+  - pip
+  - pip:
+    - git+https://github.com/gumyr/cq_warehouse.git#egg=cq_warehouse
+    - git+https://github.com/CadQuery/cadquery-plugins.git#egg=teardrop&subdirectory=plugins/teardrop
+    - git+https://github.com/CadQuery/cadquery-plugins.git#egg=cq_cache&subdirectory=plugins/cq_cache
+    - git+https://github.com/meadiode/cq_gears.git@main
